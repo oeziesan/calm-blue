@@ -9,7 +9,7 @@
 
 ## components
 
-**| tool | purpose |**
+| tool | purpose |
 |---|---|
 | [komorebi](https://github.com/LGUG2Z/komorebi) | tiling window manager |
 | [yasb](https://github.com/amnweb/yasb) | status bar |
