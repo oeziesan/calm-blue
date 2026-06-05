@@ -182,4 +182,4 @@ scoop install extras/yasb
 ```
 
 for applying config
-copy `config.yaml` & `style.css` in my [yasb](github.com/oeziesan/calm-blue/yasb) folder. to `%USER%\.config\yasb`. then reload bar.
+copy `config.yaml` & `style.css` in my [yasb](https://github.com/oeziesan/calm-blue/tree/main/yasb) folder. to `%USER%\.config\yasb`. then reload bar.
