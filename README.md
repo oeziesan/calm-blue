@@ -45,3 +45,10 @@ irm get.scoop.sh | iex
 
 ### step-by-step installation
 you can actually follow this step to have the exact output, or you can skip to the desire part : [cursors](#cursors) · [ExplorerBlurMica](#ExplorerBlurMica) · [flow-launcher](#flow-launcher) · [komorebi](#komorebi) · [wallpaper](#wallpaper) · [windhawk](#windhawk) · [windows-terminal](#windows-terminal) · [winfetch](#winfetch) · [yasb](#yasb) · [hide-taskbar](#hide-taskbar)
+
+---
+
+### cursors
+
+[![cursors](<img width="1024" height="922" alt="image" src="https://github.com/user-attachments/assets/6642bf4c-09e2-4ffe-a293-27a4c4df3a5d" />)](https://vsthemes.org/en/cursors/anime/70655-miyabi-zzz.html)
+
