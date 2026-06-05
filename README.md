@@ -66,7 +66,9 @@ download the latest release from the [repository](https://github.com/Maplespe/Ex
 
 ### flow-launcher
 
-![flow launcher](https://github.com/user-attachments/assets/98d2f0d6-1072-482d-84ea-25350d832d5f)
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/98d2f0d6-1072-482d-84ea-25350d832d5f">
+</div>
 
 download and install [Flow Launcher](https://github.com/Flow-Launcher/Flow.Launcher/releases), then copy the theme file to your themes folder:
 
