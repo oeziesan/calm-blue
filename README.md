@@ -1,6 +1,6 @@
 # dotfiles
 
-> calm blue · Windows 11
+## preview
 
 ![preview](preview/SS1.png)
 ![preview](preview/SS2.png)
