@@ -1,6 +1,6 @@
 # dotfiles
 
-you were born to use linux but forced to use windows? i got you. anyway, you can jump to: [preview](#preview) · [components](#components) · [setup](#setup) · [prerequisites](#prerequisites) · [install dependencies](#install-dependencies) · [step-by-step installation](#step-by-step%20installation)
+you were born to use linux but forced to use windows? i got you. anyway, you can jump to: [preview](#preview) · [components](#components) · [setup](#setup) · [prerequisites](#prerequisites) · [install dependencies](#install-dependencies) · [step-by-step installation](#step-by-step-installation)
 
 ## preview
 
