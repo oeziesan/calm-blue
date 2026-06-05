@@ -6,7 +6,7 @@ you were born to use linux but forced to use windows? i got you. anw, you can ju
 
 ![preview](preview/SS1.png)
 ![preview](preview/SS2.png)
-[![Watch the video](preview/previewvideos.png)](https://youtu.be/wwuWRU4wgBU)
+[![Watch the video](preview/previewvideo.png)](https://youtu.be/wwuWRU4wgBU)
 
 ---
 
