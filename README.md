@@ -2,8 +2,8 @@
 
 > calm blue · Windows 11
 
-![preview](.github/preview/SS1.png)
-![preview](.github/preview/SS2.png)
+![preview](preview/SS1.png)
+![preview](preview/SS2.png)
 
 ---
 
