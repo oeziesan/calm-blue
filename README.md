@@ -1,8 +1,10 @@
-# dotfiles
+# calm-blue dotfiles
 
-born to use linux but forced to use windows? i got you.
+> make windows 11 not look like windows. tiling layout, custom status bar, blurred explorer, and a cohesive calm-blue aesthetic — all wired together and ready to drop in.
 
-jump to: [preview](#preview) · [components](#components) · [prerequisites](#prerequisites) · [step-by-step installation](#step-by-step-installation)
+**tags:** `windows-ricing` `tiling-wm` `komorebi` `yasb` `catppuccin`
+
+jump to: [preview](#preview) · [stack](#stack) · [prerequisites](#prerequisites) · [installation](#installation)
 
 ---
 
@@ -14,74 +16,81 @@ jump to: [preview](#preview) · [components](#components) · [prerequisites](#pr
 
 ---
 
-## components
+## stack
 
-| tool | purpose |
+> windows ricing = customizing windows' visual appearance and workflow beyond what the OS provides out of the box. this setup replaces the taskbar, adds tiling window management, and applies a consistent blue-tinted theme across all components.
+
+| tool | role |
 |---|---|
-| [komorebi](https://github.com/LGUG2Z/komorebi) | tiling window manager |
-| [yasb](https://github.com/amnweb/yasb) | status bar |
-| [whkd](https://github.com/LGUG2Z/whkd) | hotkey daemon |
-| [windows terminal](https://github.com/microsoft/terminal) | terminal |
-| [flow launcher](https://github.com/Flow-Launcher/Flow.Launcher) | app launcher |
-| [windhawk](https://windhawk.net) | system tweaks |
-| [winfetch](https://github.com/lptstr/winfetch) | system info |
-| [cursors](https://vsthemes.org/en/cursors/anime/70655-miyabi-zzz.html) | cursor theme |
-| [ExplorerBlurMica](https://github.com/Maplespe/ExplorerBlurMica) | explorer blur effect |
+| [komorebi](https://github.com/LGUG2Z/komorebi) | tiling window manager — auto-arranges windows, keyboard-driven |
+| [yasb](https://github.com/amnweb/yasb) | custom status bar — replaces the default windows taskbar |
+| [whkd](https://github.com/LGUG2Z/whkd) | hotkey daemon — handles keyboard shortcuts for komorebi |
+| [windows terminal](https://github.com/microsoft/terminal) | terminal — catppuccin mocha + liquid glass transparency |
+| [flow launcher](https://github.com/Flow-Launcher/Flow.Launcher) | spotlight-style app launcher with calm-blue theme |
+| [windhawk](https://windhawk.net) | system-level tweaks — notification center, icon themes |
+| [winfetch](https://github.com/lptstr/winfetch) | neofetch-style system info display in terminal |
+| [cursors](https://vsthemes.org/en/cursors/anime/70655-miyabi-zzz.html) | miyabi cursor theme |
+| [ExplorerBlurMica](https://github.com/Maplespe/ExplorerBlurMica) | blur/mica effect on file explorer |
 
 ---
 
 ## prerequisites
 
-- Windows 11
-- [Scoop](https://scoop.sh) or [winget](https://aka.ms/getwinget) (usually pre-installed on Windows 11)
+- **Windows 11** — required. some tools are Win11-specific.
+- **scoop** or **winget** — winget ships with Windows 11 by default.
 
-**Scoop:**
+set up scoop if you don't have it:
+
 ```powershell
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 irm get.scoop.sh | iex
 ```
 
-**winget** ships with Windows 11 by default — no setup needed.
+---
+
+## installation
+
+you can follow every step for the exact same output, or jump to a specific component:
+
+[cursors](#1-cursors) · [ExplorerBlurMica](#2-explorerblurmica) · [flow launcher](#3-flow-launcher) · [komorebi](#4-komorebi) · [windows terminal](#5-windows-terminal) · [winfetch](#6-winfetch) · [yasb](#7-yasb) · [windhawk](#8-windhawk) · [hide taskbar](#9-hide-taskbar)
 
 ---
 
-## step-by-step installation
+### 1. cursors
 
-follow all steps for the exact same output, or jump to a specific part:
-
-[cursors](#cursors) · [ExplorerBlurMica](#explorerblurmica) · [flow launcher](#flow-launcher) · [komorebi](#komorebi) · [windhawk](#windhawk) · [windows terminal](#windows-terminal) · [winfetch](#winfetch) · [yasb](#yasb) · [hide taskbar](#hide-taskbar)
-
----
-
-### cursors
+`optional`
 
 [![cursors](https://github.com/user-attachments/assets/a79f7d6f-f61d-4d43-8962-c7a3a72b76bb)](https://vsthemes.org/en/cursors/anime/70655-miyabi-zzz.html)
 
 run `install.inf` → right click → install, then apply via mouse settings.
 
-shoutout to **aliline** for making this cursor. explore more at [vsthemes](https://vsthemes.org/en/cursors/).
+shoutout to **aliline** for the cursor. explore more at [vsthemes](https://vsthemes.org/en/cursors/).
 
 ---
 
-### ExplorerBlurMica
+### 2. ExplorerBlurMica
 
-download the latest release from the [repository](https://github.com/Maplespe/ExplorerBlurMica/releases), extract, and run `register.cmd`. that's it — optionally import a preset or configure manually via the GUI.
+`optional`
+
+download from the [repository](https://github.com/Maplespe/ExplorerBlurMica/releases), extract, run `register.cmd`. optionally import a preset or configure manually via the GUI.
 
 ---
 
-### flow launcher
+### 3. flow launcher
+
+`optional`
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/98d2f0d6-1072-482d-84ea-25350d832d5f">
 </div>
 
-download and install [Flow Launcher](https://github.com/Flow-Launcher/Flow.Launcher/releases), then copy the theme file:
+download and install [Flow Launcher](https://github.com/Flow-Launcher/Flow.Launcher/releases), then copy the theme:
 
 ```
 flow-launcher/calm-blue.xaml → %APPDATA%\FlowLauncher\Themes\
 ```
 
-open Flow Launcher settings → appearance → select `calm-blue`.
+open settings → appearance → select `calm-blue`.
 
 **recommended font:**
 
@@ -95,41 +104,44 @@ apply via settings → appearance → font.
 
 ---
 
-### komorebi
+### 4. komorebi
 
-**install via scoop:**
+`core`
+
+**install:**
+
 ```powershell
+# scoop
 scoop bucket add extras
 scoop install komorebi whkd
-```
 
-**or winget:**
-```powershell
+# or winget
 winget install LGUG2Z.komorebi
 winget install LGUG2Z.whkd
 ```
 
-**quickstart:**
+**start and enable autostart:**
+
 ```powershell
 komorebic start --whkd
-```
-
-**enable autostart:**
-```powershell
 komorebic enable-autostart --whkd
 ```
 
 **apply config:**
+
 ```
 komorebi/komorebi.json → %USERPROFILE%\komorebi.json
 ```
+
 ```powershell
 komorebic reload-configuration
 ```
 
 ---
 
-### windows terminal
+### 5. windows terminal
+
+`optional`
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/8fe41676-f1a5-4a00-981c-16cbbbc30952">
@@ -137,90 +149,91 @@ komorebic reload-configuration
 
 right click the title bar → settings → open JSON file → paste everything from `windows-terminal/settings.json`.
 
-in appearance → application theme → select `Catppuccin Mocha`. do the same for color schemes.
+set appearance → application theme → `Catppuccin Mocha`. do the same for color schemes.
 
-**for the liquid glass effect:**
-profiles → defaults → appearance → transparency → set background opacity to 40% and enable acrylic material.
+**liquid glass effect:** profiles → defaults → appearance → transparency → set opacity to 40% and enable acrylic material.
 
 ---
 
-### winfetch
+### 6. winfetch
 
-**powershell gallery** (recommended):
+`optional`
+
 ```powershell
+# powershell gallery (recommended)
 Install-Script winfetch
-```
 
-**winget:**
-```powershell
+# winget
 winget install winfetch
-```
 
-**scoop:**
-```powershell
+# scoop
 scoop install winfetch
 ```
 
-**optional — run on terminal startup:**
+**run on terminal startup** — add to `$PROFILE`:
+
 ```powershell
 notepad $PROFILE
-```
-add this line:
-```powershell
-winfetch
+# add: winfetch
 ```
 
 ---
 
-### yasb
+### 7. yasb
 
-**install via .msi** from the [yasb releases page](https://github.com/amnweb/yasb), or:
+`core`
 
-**winget:**
 ```powershell
+# winget
 winget install AmN.yasb
-```
 
-**scoop:**
-```powershell
+# scoop
 scoop bucket add extras
 scoop install extras/yasb
 ```
 
 **apply config:**
+
 ```
 yasb/config.yaml + style.css → %USERPROFILE%\.config\yasb\
 ```
+
 then reload the bar.
 
 ---
 
-### windhawk
+### 8. windhawk
 
-i use windhawk to hide the default taskbar and replace it with yasb, and to move quick settings + notification center to the top.
+`optional`
 
-| mod | purpose | theme |
+used to hide the default taskbar, reposition quick settings and notification center to the top, and swap the icon pack.
+
+| mod | what it does | theme |
 |---|---|---|
-| Resource Indirect | icon theme switcher | macOS DarkMode (by Niivu) |
+| Resource Indirect | swaps icon pack | macOS DarkMode (by Niivu) |
 | Taskbar on top for Windows 11 | moves taskbar and start menu to top | — |
 | Windows 11 Notification Center Styler | styles and repositions notification center | Translucent Shell |
-| Windows 11 Start Menu Styler | styles the start menu | Down Aero |
+| Windows 11 Start Menu Styler | reskins the start menu | Down Aero |
 
 themes are optional — use whatever fits your setup.
 
-**to move notification center to the top:**
-advanced → mod settings → paste content from `windhawk/notification-center.json` → save.
+**to move notification center to the top:** advanced → mod settings → paste content of `windhawk/notification-center.json` → save.
 
 ---
 
-### hide taskbar
+### 9. hide taskbar
+
+`core`
 
 download [thide](https://github.com/amnweb/thide) and install via the .msi installer.
 
 ```powershell
 thide start
 thide enable-autostart
-thide disable-autostart
 ```
 
-and that's it, you're done.
+this hides the default windows taskbar so yasb can take over cleanly.
+
+---
+
+done.
