@@ -50,6 +50,7 @@ you can actually follow this step to have the exact output, or you can skip to t
 
 ### cursors
 
-[![cursors](https://github.com/user-attachments/assets/399bac86-1eb0-4e19-b088-c0cc8af65f84)](https://vsthemes.org/en/cursors/anime/70655-miyabi-zzz.html)
+[![cursors](https://github.com/user-attachments/assets/a79f7d6f-f61d-4d43-8962-c7a3a72b76bb)](https://vsthemes.org/en/cursors/anime/70655-miyabi-zzz.html)
+
 
 
