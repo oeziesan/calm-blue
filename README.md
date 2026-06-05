@@ -50,7 +50,7 @@ you can actually follow this step to have the exact output, or you can skip to t
 
 ### cursors
 
-[![cursors](https://github.com/user-attachments/assets/a79f7d6f-f61d-4d43-8962-c7a3a72b76bb)](https://vsthemes.org/en/cursors/anime/70655-miyabi-zzz.html)
+this is the cursor i use: [![cursors](https://github.com/user-attachments/assets/a79f7d6f-f61d-4d43-8962-c7a3a72b76bb)](https://vsthemes.org/en/cursors/anime/70655-miyabi-zzz.html) , and install install.inf then apply.
 
-
+shoutout for aliline for make this cursor, if you want to look another cursor you can visit the [vsthemes](https://vsthemes.org/en/cursors/)
 
