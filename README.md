@@ -30,22 +30,16 @@ you were born to use linux but forced to use windows? i got you. anyway, you can
 
 ### prerequisites
 
-- Windows 10/11
-- [Scoop](https://scoop.sh) (recommended for installing most tools)
+- Windows 11
+- [Scoop](https://scoop.sh) or [winget](https://aka.ms/getwinget) (usually pre-installed on Windows 11)
 
+**Scoop:**
 ```powershell
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 irm get.scoop.sh | iex
 ```
 
-### install dependencies
-
-```powershell
-scoop bucket add extras
-scoop install komorebi whkd
-```
-
-Install the rest manually via their respective GitHub releases or official sites.
+**winget:** ships with Windows 11 by default.
 
 ### apply config
 
