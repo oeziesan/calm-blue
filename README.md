@@ -1,8 +1,9 @@
 # dotfiles
 
-> calm blue · Windows 10/11
+> calm blue · Windows 11
 
-![preview](.github/preview.png)
+![preview](.github/preview/SS1.png)
+![preview](.github/preview/SS2.png)
 
 ---
 
