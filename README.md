@@ -65,7 +65,7 @@ shoutout to **aliline** for making this cursor. explore more at [vsthemes](https
 
 ### ExplorerBlurMica
 
-download the latest release from the [repository](https://github.com/Maplespe/ExplorerBlurMica/releases), extract, and run `register.cmd`. that's it, it's optional to import a preset or configure manually via the GUI.
+download the latest release from the [repository](https://github.com/Maplespe/ExplorerBlurMica/releases), extract, and run `register.cmd`. that's it, it's optional to import a preset.
 
 ---
 
