@@ -60,6 +60,6 @@ shoutout to **aliline** for making this cursor. if you want to explore more, vis
 
 ### ExplorerBlurMica
 
-download the latest release from the [repository](https://github.com/Maplespe/ExplorerBlurMica/releases), extract, and run `ExplorerBlurMica.exe`. import your preferred preset or configure manually via the GUI.
+download the latest release from the [repository](https://github.com/Maplespe/ExplorerBlurMica/releases), extract, and run `ExplorerBlurMica.exe`. it all set actually, but you can import your preferred preset or configure manually via the GUI.
 
 
