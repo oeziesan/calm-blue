@@ -191,7 +191,7 @@ copy `config.yaml` & `style.css` in my [yasb](https://github.com/oeziesan/calm-b
 in my mod, i'll hide default taskbar and change to yasb. i use windhawk for moving the `quicksettings` and `notification center` on the top.
 
 | mods | purpose | theme used |
-|---|---|
+|---|---| --- |
 | Resource Indirect | change icon themes | macOS DarkMode (by Niivu) |
 | Taskbar on top for Windows 11 | move taskbar and start menu on top | - |
 | Windows 11 Notification Center Styler | styler for notification center, but also to make notification center is on top | Translucent Shell |
