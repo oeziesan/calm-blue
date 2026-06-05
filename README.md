@@ -90,6 +90,8 @@ apply via settings → appearance → font.
 
 ### komorebi
 
+## komorebi
+
 install via scoop:
 
 ```powershell
@@ -104,12 +106,20 @@ winget install LGUG2Z.komorebi
 winget install LGUG2Z.whkd
 ```
 
-enable autostart with whkd:
+quickstart:
+
+```powershell
+komorebic start --whkd
+```
+
+enable autostart:
 
 ```powershell
 komorebic enable-autostart --whkd
 ```
 
-apply config by copying to your user profile:
+apply config by copying `komorebi/komorebi.json` to `%USERPROFILE%\komorebi.json`, then reload:
 
-copy `komorebi/komorebi.json` to `%USERPROFILE%\komorebi.json`
+```powershell
+komorebic reload-configuration
+```
