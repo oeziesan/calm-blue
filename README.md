@@ -124,7 +124,7 @@ komorebic reload-configuration
 
 ---
 
-### Windows terminal
+### windows-terminal
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/8fe41676-f1a5-4a00-981c-16cbbbc30952">
@@ -136,7 +136,7 @@ For make the liquid glass effect, go to defaults in profile → Appearance → S
 
 ---
 
-### Winfetch 
+### winfetch 
 
 you can install winfetch using the following methods:
 
@@ -166,7 +166,7 @@ winfetch
 
 ---
 
-### Yasb
+### yasb
 
 download and install the lastest version of [yasb](https://github.com/amnweb/yasb). i use .msi installer. but you can use:
 
@@ -183,3 +183,41 @@ scoop install extras/yasb
 
 for applying config
 copy `config.yaml` & `style.css` in my [yasb](https://github.com/oeziesan/calm-blue/tree/main/yasb) folder to `%USER%\.config\yasb`. then reload bar.
+
+---
+
+### windhawk
+
+in my mod, i'll hide default taskbar and change to yasb. i use windhawk for moving the `quicksettings` and `notification center` on the top.
+
+| mods | purpose | theme used |
+|---|---|
+| Resource Indirect | change icon themes | macOS DarkMode (by Niivu) |
+| Taskbar on top for Windows 11 | move taskbar and start menu on top | - |
+| Windows 11 Notification Center Styler | styler for notification center, but also to make notification center is on top | Translucent Shell |
+| Windows 11 Start Menu Styler | styler for start menu | Down Aero |
+
+you can actually follow my theme or not, it's really optional.
+
+for moving the notification center to the top, copy the content of `windhawk/notification-center.json` to advanced → mod settings → save.
+
+---
+
+### hide-taskbar
+
+download [thide](https://github.com/amnweb/thide) and install using the .msi installer.
+
+CLI
+```powershell
+#start
+thide start
+
+#enable autostart
+thide enable-autostart
+
+#disable autostart
+thide disable-autostart
+```
+
+done, it all set.
+
