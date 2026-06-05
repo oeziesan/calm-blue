@@ -6,6 +6,7 @@ you were born to use linux but forced to use windows? i got you. anw, you can ju
 
 ![preview](preview/SS1.png)
 ![preview](preview/SS2.png)
+[![youtube](https://img.shields.io/badge/youtube-preview-ff0000?style=flat&logo=youtube)](https://youtu.be/wwuWRU4wgBU)
 
 ---
 
