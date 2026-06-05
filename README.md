@@ -85,3 +85,31 @@ open Flow Launcher settings → appearance → select `calm-blue`.
 | 12pt | JetBrains Mono Light |
 
 apply via settings → appearance → font.
+
+---
+
+### komorebi
+
+install via scoop:
+
+```powershell
+scoop bucket add extras
+scoop install komorebi whkd
+```
+
+or via winget:
+
+```powershell
+winget install LGUG2Z.komorebi
+winget install LGUG2Z.whkd
+```
+
+enable autostart with whkd:
+
+```powershell
+komorebic enable-autostart --whkd
+```
+
+apply config by copying to your user profile:
+
+copy `komorebi/komorebi.json` to `%USERPROFILE%\komorebi.json`
