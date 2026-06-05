@@ -70,9 +70,7 @@ download the latest release from the [repository](https://github.com/Maplespe/Ex
 
 download and install [Flow Launcher](https://github.com/Flow-Launcher/Flow.Launcher/releases), then copy the theme file to your themes folder:
 
-```powershell
-Copy-Item flow-launcher/calm-blue.xaml "$env:APPDATA\FlowLauncher\Themes\calm-blue.xaml"
-```
+copy `flow-launcher/calm-blue.xaml` to `%APPDATA%\FlowLauncher\Themes\`
 
 open Flow Launcher settings → appearance → select `calm-blue`.
 
