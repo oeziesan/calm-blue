@@ -1,5 +1,7 @@
 # dotfiles
 
+you were born to use linux but forced to use windows? i got you. anw, you can jump to: [preview](#preview) · [components](#components) · [setup](#setup) · [prerequisites](#prerequisites) · [install dependencies](#install-dependencies) · [apply config](#apply-config) · [credits](#credits)
+
 ## preview
 
 ![preview](preview/SS1.png)
