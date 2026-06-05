@@ -44,7 +44,7 @@ irm get.scoop.sh | iex
 ---
 
 ### step-by-step installation
-you can actually follow this step to have the exact output, or you can skip to the desire part : [cursors](#cursors) · [ExplorerBlurMica](#ExplorerBlurMica) · [flow-launcher](#flow-launcher) · [komorebi](#komorebi) · [windhawk](#windhawk) · [windows-terminal](#windows-terminal) · [winfetch](#winfetch) · [yasb](#yasb) · [hide-taskbar](#hide-taskbar)
+you can actually follow this step to have the same exact output, or you can skip to the desire part : [cursors](#cursors) · [ExplorerBlurMica](#ExplorerBlurMica) · [flow-launcher](#flow-launcher) · [komorebi](#komorebi) · [windhawk](#windhawk) · [windows-terminal](#windows-terminal) · [winfetch](#winfetch) · [yasb](#yasb) · [hide-taskbar](#hide-taskbar)
 
 ---
 
