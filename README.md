@@ -50,5 +50,5 @@ you can actually follow this step to have the exact output, or you can skip to t
 
 ### cursors
 
-[![cursors](<img width="1024" height="922" alt="image" src="https://github.com/user-attachments/assets/6642bf4c-09e2-4ffe-a293-27a4c4df3a5d" />)](https://vsthemes.org/en/cursors/anime/70655-miyabi-zzz.html)
+[![cursors](https://github.com/user-attachments/assets/6642bf4c-09e2-4ffe-a293-27a4c4df3a5d)](https://vsthemes.org/en/cursors/anime/70655-miyabi-zzz.html)
 
