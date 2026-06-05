@@ -62,4 +62,26 @@ shoutout to **aliline** for making this cursor. if you want to explore more, vis
 
 download the latest release from the [repository](https://github.com/Maplespe/ExplorerBlurMica/releases), extract, and run `ExplorerBlurMica.exe`. it all set actually, but you can import your preferred preset or configure manually via the GUI.
 
+---
 
+### flow-launcher
+
+![flow launcher](https://github.com/user-attachments/assets/98d2f0d6-1072-482d-84ea-25350d832d5f)
+
+download and install [Flow Launcher](https://github.com/Flow-Launcher/Flow.Launcher/releases), then copy the theme file to your themes folder:
+
+```powershell
+Copy-Item flow-launcher/calm-blue.xaml "$env:APPDATA\FlowLauncher\Themes\calm-blue.xaml"
+```
+
+open Flow Launcher settings → appearance → select `calm-blue`.
+
+**recommended font:**
+
+| size | weight |
+|---|---|
+| 16pt | JetBrains Mono Regular |
+| 14pt | JetBrains Mono Thin |
+| 12pt | JetBrains Mono Light |
+
+apply via settings → appearance → font.
