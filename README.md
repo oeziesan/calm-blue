@@ -90,8 +90,6 @@ apply via settings → appearance → font.
 
 ### komorebi
 
-## komorebi
-
 install via scoop:
 
 ```powershell
