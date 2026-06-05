@@ -60,7 +60,7 @@ shoutout to **aliline** for making this cursor. if you want to explore more, vis
 
 ### ExplorerBlurMica
 
-download the latest release from the [repository](https://github.com/Maplespe/ExplorerBlurMica/releases), extract, and run `ExplorerBlurMica.exe`. it all set actually, but you can import your preferred preset or configure manually via the GUI.
+download the latest release from the [repository](https://github.com/Maplespe/ExplorerBlurMica/releases), extract, and run `register.cmd`. it all set actually, but you can import your preferred preset or configure manually via the GUI.
 
 ---
 
@@ -121,3 +121,65 @@ apply config by copying `komorebi/komorebi.json` to `%USERPROFILE%\komorebi.json
 ```powershell
 komorebic reload-configuration
 ```
+
+---
+
+### Windows terminal
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/8fe41676-f1a5-4a00-981c-16cbbbc30952">
+</div>
+
+for applying config, press terminal then click right on the bar → settings → Open JSON file → Copy everything from `windows-terminal\settings.json` and paste it to terminal JSON file. In Appearance → Application Theme → Choose `Catppuccin Mocha`. And in Color Schemes, choose `Catppuccin Mocha` too.  Yes, i use [catppuccin mocha](https://github.com/catppuccin/windows-terminal/tree/main) for this theme.
+
+For make the liquid glass effect, go to defaults in profile → Appearance → Scroll down to `transparency` and turn the background opacity to 40% and enable acrylic material. 
+
+---
+
+### Winfetch 
+
+you can install winfetch using the following methods:
+
+**Powershell Gallery** (reccomended) offers the fastest execution and tab completion.
+```powershell
+Install-Script winfetch
+```
+
+winget
+```powershell
+winget install winfetch
+```
+
+scoop
+```powershell
+scoop install winfetch
+```
+
+(optional) and for make it run everytime you open terminal, you need to write `winfetch` command in your profile.
+```powershell
+notepad $PROFILE
+```
+then,
+```powershell
+winfetch
+```
+
+---
+
+### Yasb
+
+download and install the lastest version of [yasb](https://github.com/amnweb/yasb). i use .msi installer. but you can use:
+
+winget
+```powershell
+winget install AmN.yasb
+```
+
+scoop
+```powershell
+scoop bucket add extras
+scoop install extras/yasb
+```
+
+for applying config
+copy `config.yaml` & `style.css` in my [yasb](github.com/oeziesan/calm-blue/yasb) folder. to `%USER%\.config\yasb`. then reload bar.
