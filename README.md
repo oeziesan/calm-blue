@@ -56,3 +56,10 @@ install by running `install.inf` → right click → install, then apply via mou
 
 shoutout to **aliline** for making this cursor. if you want to explore more, visit [vsthemes](https://vsthemes.org/en/cursors/).
 
+---
+
+### ExplorerBlurMica
+
+download the latest release from the [repository](https://github.com/Maplespe/ExplorerBlurMica/releases), extract, and run `ExplorerBlurMica.exe`. import your preferred preset or configure manually via the GUI.
+
+
