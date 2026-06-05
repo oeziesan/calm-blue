@@ -55,7 +55,7 @@ follow all steps for the exact same output, or jump to a specific part:
 
 ### cursors
 
-[![cursors](https://github.com/user-attachments/assets/a79f7d6f-f61d-4d43-8962-c7a3a72b76bb)](https://vsthemes.org/en/cursors/anime/70655-miyabi-zzz.html)
+[![cursors](https://github.com/user-attachments/assets/a79f7d6f-f61d-4d43-8962-c7a3a72b76bb)](https://vsthemes.org/en/cursors/anime/70655-miyabi-zzz.html) (click that cute anime girl bro)
 
 run `install.inf` → right click → install, then apply via mouse settings.
 
@@ -65,7 +65,7 @@ shoutout to **aliline** for making this cursor. explore more at [vsthemes](https
 
 ### ExplorerBlurMica
 
-download the latest release from the [repository](https://github.com/Maplespe/ExplorerBlurMica/releases), extract, and run `register.cmd`. that's it — optionally import a preset or configure manually via the GUI.
+download the latest release from the [repository](https://github.com/Maplespe/ExplorerBlurMica/releases), extract, and run `register.cmd`. that's it, it's optional to import a preset or configure manually via the GUI.
 
 ---
 
@@ -163,7 +163,7 @@ winget install winfetch
 scoop install winfetch
 ```
 
-**optional — run on terminal startup:**
+**(optional) run on terminal startup:**
 ```powershell
 notepad $PROFILE
 ```
@@ -220,8 +220,13 @@ advanced → mod settings → paste content from `windhawk/notification-center.j
 download [thide](https://github.com/amnweb/thide) and install via the .msi installer.
 
 ```powershell
+#start
 thide start
+
+#enable autostart
 thide enable-autostart
+
+#disable autostart
 thide disable-autostart
 ```
 
