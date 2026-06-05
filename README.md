@@ -9,41 +9,17 @@
 
 ## components
 
-| tool | purpose | status |
-|---|---|---|
-| [komorebi](https://github.com/LGUG2Z/komorebi) | tiling window manager | ✓ |
-| [yasb](https://github.com/amnweb/yasb) | status bar | ✓ |
-| [whkd](https://github.com/LGUG2Z/whkd) | hotkey daemon | ✓ |
-| [windows terminal](https://github.com/microsoft/terminal) | terminal | ✓ |
-| [flow launcher](https://github.com/Flow-Launcher/Flow.Launcher) | app launcher | ✓ |
-| [windhawk](https://windhawk.net) | system tweaks | ✓ |
-| [winfetch](https://github.com/lptstr/winfetch) | system info | ✓ |
-| cursors | cursor theme | ✓ |
-| [ExplorerBlurMica](https://github.com/Maplespe/ExplorerBlurMica) | explorer blur effect | not used |
-
----
-
-## structure
-
-```
-dotfiles/
-├── komorebi/
-│   ├── komorebi.json
-│   └── applications.json
-├── yasb/
-│   ├── config.yaml
-│   └── styles.css
-├── windows-terminal/
-│   └── settings.json
-├── flow-launcher/
-│   └── Settings.json
-├── windhawk/
-│   └── ...
-├── winfetch/
-│   └── config.ps1
-└── cursors/
-    └── ...
-```
+**| tool | purpose |**
+|---|---|
+| [komorebi](https://github.com/LGUG2Z/komorebi) | tiling window manager |
+| [yasb](https://github.com/amnweb/yasb) | status bar |
+| [whkd](https://github.com/LGUG2Z/whkd) | hotkey daemon |
+| [windows terminal](https://github.com/microsoft/terminal) | terminal |
+| [flow launcher](https://github.com/Flow-Launcher/Flow.Launcher) | app launcher |
+| [windhawk](https://windhawk.net) | system tweaks |
+| [winfetch](https://github.com/lptstr/winfetch) | system info |
+| [cursors](https://vsthemes.org/en/cursors/anime/70655-miyabi-zzz.html) | cursor theme |
+| [ExplorerBlurMica](https://github.com/Maplespe/ExplorerBlurMica) | explorer blur effect |
 
 ---
 
